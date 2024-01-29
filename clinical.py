@@ -1,5 +1,6 @@
 # Importação de bibliotecas
 from datetime import datetime
+import os
 
 
 # Classe para os pacientes da clínica.
@@ -473,6 +474,7 @@ clinic_system = Clinic()
 
 # Esta função exibe o título do programa!
 def title():
+    os.system('cls')
     print("-=-" * 20)
     print(" " * 18, "Clinica Dente Clean")
     print("-=-" * 20)
